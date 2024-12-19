@@ -1,0 +1,93 @@
+/* logo  */
+.main-logo .logo img {
+  width: 140px;
+}
+
+/* navbar */
+header.main-header.header-style-three {
+  background-color: var(--color-dark-green);
+}
+
+/* Homepage book now */
+div.check-availability-two button {
+  background-color: transparent;
+  padding: 10px;
+  width: 65%;
+  border: 1px solid #ffffff;
+  margin-inline: auto;
+  display: block;
+}
+
+/* exolore button  */
+.link-box a.btn-style-one {
+  background-color: var(--color-dark-green);
+  color: #fff;
+}
+
+/* about us */
+.theme-color.bar_peepal {
+  font-size: 64px;
+}
+
+.sec-title.welcome-bar {
+  font-size: 39px;
+  line-height: 1;
+}
+
+/* ota */
+.ota_wrapper .ota-child {
+  flex: 0 1 110px;
+}
+
+/* footer */
+.widget.contact-widget h4 {
+  position: relative;
+}
+.widget.contact-widget h4:before {
+  position: absolute;
+  content: "";
+  width: 37px;
+  height: 1px;
+  bottom: -10px;
+  background-color: #ffffff;
+}
+
+/* button get direction */
+.features_wrapper {
+  max-height: 722px;
+  overflow-y: auto;
+}
+
+.get_direction {
+  background-color: var(--color-extra-dark-green);
+  overflow: hidden;
+  width: 60%;
+  border-radius: 32px;
+}
+.get_direction a {
+  color: #000000;
+  background: #dfdada;
+  padding: 10px;
+  font-size: 14px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  width: 131px;
+}
+
+.text-limit {
+  height: 155px;
+  overflow-y: auto;
+}
+
+#myTab .nav-link {
+  position: relative;
+}
+#myTab .nav-link:before {
+  position: absolute;
+  content: "\f061";
+  font-family: "Font Awesome 5 Pro";
+  right: 20px;
+}
+#myTab .nav-link.active {
+  color: #fff;
+}/*# sourceMappingURL=new-style.css.map */
