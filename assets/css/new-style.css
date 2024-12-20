@@ -61,7 +61,7 @@ div.check-availability-two button {
 .get_direction {
   background-color: var(--color-extra-dark-green);
   overflow: hidden;
-  width: 60%;
+  width: 48%;
   border-radius: 32px;
 }
 .get_direction a {
@@ -72,6 +72,9 @@ div.check-availability-two button {
   -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
   width: 131px;
+}
+.get_direction a + p {
+  font-size: 14px;
 }
 
 .text-limit {
@@ -90,4 +93,26 @@ div.check-availability-two button {
 }
 #myTab .nav-link.active {
   color: #fff;
-}/*# sourceMappingURL=new-style.css.map */
+}
+
+/* whatsapp */
+.whats_app {
+  position: fixed;
+  bottom: 15%;
+  z-index: 999;
+  right: 1%;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.whats_app i {
+  color: #009688;
+}
+.footer-styling .contact-widget li i{
+    color: #fff;
+}
+/*# sourceMappingURL=new-style.css.map */
