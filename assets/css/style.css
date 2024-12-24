@@ -1681,7 +1681,6 @@ header.main-header.header-style-one.style-two {
 .mobile-menu .navigation li ul li>a {
     font-size: 15px;
     margin-left: 20px;
-    text-transform: capitalize;
 }
 
 .mobile-menu .navigation li>a:before {
@@ -4685,7 +4684,7 @@ section.section-thirty-two .title-box {
 
 .page-title {
     position: relative;
-    padding: 160px 0px 130px;
+    padding: 340px 0px 108px;
     text-align: center;
     background-size: cover;
     background-color: #222;
