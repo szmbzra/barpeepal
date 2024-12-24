@@ -2259,7 +2259,7 @@ header.main-header.header-style-one.style-two {
 .sub-title {
     font-size: 16px;
     line-height: 1.6em;
-    color: #be9a78;
+    color: #838281;
     font-weight: 400;
     font-family: "Roboto";
     position: relative;
@@ -2280,7 +2280,7 @@ header.main-header.header-style-one.style-two {
 }
 
 .sec-title {
-    font-size: 60px;
+    font-size: 57px;
     line-height: 1.2em;
     color: #111111;
     font-weight: 600;
@@ -2450,7 +2450,7 @@ section.section-two:before {
     top: 0;
     left: 0;
     right: 0;
-    background: #222;
+    background: #f3f3f3;
     height: 540px;
 }
 
@@ -3357,9 +3357,7 @@ section.section-sixteen {
     margin-top: 10px;
 }
 
-.block-sixteen span {
-    margin-left: 18px;
-}
+
 
 /* section thirty four */
 
@@ -4691,7 +4689,7 @@ section.section-thirty-two .title-box {
     text-align: center;
     background-size: cover;
     background-color: #222;
-    margin-top: -35px;
+    margin-top: -80px;
 }
 
 .page-title .bread-crumb li:last-child {
@@ -4700,7 +4698,7 @@ section.section-thirty-two .title-box {
 }
 
 .content-wrapper h1 {
-    font-size: 80px;
+    font-size: 40px;
     letter-spacing: -2px;
     line-height: 1.2em;
     color: #ffffff;
@@ -4785,7 +4783,7 @@ section.section-thirty-three {
 
 .block-thirty-three .icon {
     font-size: 65px;
-    color: #be9a78;
+    color: #4d4d4d;
 }
 
 
@@ -4959,13 +4957,11 @@ section.section-thirty-eight {
 
 .block-thirty-eight .inner-box .pricing {
     font-size: 14px;
-    color: #ffffff;
     font-weight: 700;
     font-family: "Roboto";
     text-align: center;
     width: 100px;
     height: 30px;
-    background-color: #be9a78;
     position: relative;
     margin-bottom: 20px;
     margin-left: 13px;
@@ -4979,7 +4975,7 @@ section.section-thirty-eight {
     padding: 9px 23px;
     font-size: 16px;
     line-height: 30px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #777777;
     font-weight: 700;
     font-family: "Roboto";
@@ -5140,7 +5136,6 @@ section.section-thirty-nine {
 
 .block-43 {
     position: relative;
-    filter: drop-shadow(0px 16px 16px rgba(0,0,0,0.04));
     background-color: #ffffff;
     border: 2px solid #f1f1f1;
     padding: 38px 0 40px;
@@ -5155,7 +5150,6 @@ section.section-thirty-nine {
     height: 0;
     opacity: 0;
     transition: .5s;
-    background: #000;
 }
 
 .block-43 .icon-three:hover:before {
@@ -5163,27 +5157,21 @@ section.section-thirty-nine {
     opacity: 1;
 }
 
-.block-43 .icon-three .icon {
-    position: relative;
-    color: #be9a78;
 
-}
 
 .block-43 .icon-three:hover i {
-    color: #fff;
+    color: #000000;
 
 
 }
 
 .block-43 .icon-three:hover .title {
-    color: #fff;
-
+    color: #000000;
 }
 
 .block-43 .icon-three i {
    position: relative;
    font-size: 60px;
-   color: #be9a78;
 }
 
 .block-43 .icon-three {
@@ -6250,13 +6238,13 @@ footer.main-footer {
 }
 
 .footer-bottom .wrapper-box {
-    background: var(--color-dark-green);
+    /* background: var(--color-dark-green); */
     margin-bottom: -40px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 35px 50px 20px;
+    padding: 35px 0 20px;
 }
 
 .footer-bottom .brand-logo {
@@ -8348,7 +8336,8 @@ header.main-header.header-style-three .auto-container {
     margin: 6px 0;
 }
 .main-header.header-style-three.fixed-header .sticky-header {
-    background: var(--color-dark-green);
+    /* background: var(--color-dark-green); */
+    background: #1414148c;
 }
 
 /* main slider style two */

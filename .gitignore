@@ -2,4 +2,5 @@ images
 inc
 fonts
 js
+!assets/js
 *.scss
