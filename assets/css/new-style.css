@@ -1,3 +1,19 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-extra-dark-green);
+  border-radius: 5px;
+}
+
 /* logo  */
 .main-logo .logo img {
   width: 334px;
@@ -54,7 +70,7 @@ div.check-availability-two button {
 
 /* button get direction */
 .features_wrapper {
-  max-height: 722px;
+  max-height: 565px;
   overflow-y: auto;
 }
 
@@ -117,6 +133,10 @@ div.check-availability-two button {
   color: #fff;
 }
 
+.footer__icons li {
+  display: flex;
+}
+
 /* gallery */
 .filter-button-group button {
   background: none;
@@ -170,9 +190,9 @@ div.check-availability-two button {
   padding: 31px 30px 40px;
 }
 
-.section-thirty-eight .column__orders .row:nth-child(even) {
-  flex-direction: row-reverse;
-}
+/*.section-thirty-eight .column__orders .row:nth-child(even) {*/
+/*  flex-direction: row-reverse;*/
+/*}*/
 
 /* Room details page */
 .room_special {
@@ -223,4 +243,16 @@ div.check-availability-two button {
   background: var(--color-dark-green);
   color: #fff;
   padding: 10px;
+}
+
+.table__bg_color.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(111, 110, 62, 0.6901960784);
+  color: #fff;
+}
+
+/* testimonial */
+.testimonials-section .text {
+  max-height: 130px;
+  overflow-y: auto;
+  padding-right: 30px;
 }/*# sourceMappingURL=new-style.css.map */
