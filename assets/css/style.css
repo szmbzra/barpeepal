@@ -60,7 +60,12 @@ font-family: 'Roboto', sans-serif;
   .theme-color {
     color: var(--theme-color);
   }
-
+.text-black{
+    color: #000;
+    &:hover{
+        color: #141414;
+    }
+}
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -4047,8 +4052,7 @@ section.section-twenty-five .auto-container {
     padding: 9px 23px;
     font-size: 16px;
     line-height: 30px;
-    text-decoration: underline;
-    color: #777777;
+    color: var(--color-extra-dark-green);
     font-weight: 700;
     font-family: "Roboto";
     text-align: center;

@@ -207,7 +207,7 @@ div.check-availability-two button {
   text-align: center;
   background-color: var(--color-dark-green);
   color: #fff;
-  font-size: 23px;
+  font-size: 17px;
   line-height: 1.8;
 }
 .room_special .pricing h2 {
@@ -234,8 +234,15 @@ div.check-availability-two button {
   padding: 45px 41px 0 68px;
 }
 
+.section-thirty-nine .room_sliders {
+  height: 100vh !important;
+  overflow: hidden;
+}
+
 .room_sliders .owl-item .item img {
   width: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* hall details */

@@ -1,365 +1,729 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Bar Peepal Resort</title>
-    <!-- Stylesheets -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Responsive File -->
-    <link href="assets/css/responsive.css" rel="stylesheet">
-    <link href="assets/css/new-style.css" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
-
-    <link rel="shortcut icon" href="assets/images/barpeepal/favicon.png" type="image/x-icon">
-    <link rel="icon" href="assets/images/barpeepal/favicon.png" type="image/x-icon">
-
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-</head>
-
-<body>
-
-    <div class="page-wrapper">
-
-        <!-- preloader -->
-        <div id="preloader" class="preloader">
-            <div class="animation-preloader">
-                <div class="spinner">
-                </div>
-            </div>
-            <div class="loader">
-                <div class="row">
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Main Header -->
-        <header class="main-header header-style-three position-absolute">
-            <!-- Header Upper -->
-            <div class="header-upper">
-                <div class="auto-container">
-                    <div class="inner-container">
-                        <div class="logo-box main-logo">
-                            <div class="logo"><a href="index.html"><img src="assets/images/barpeepal/logo-transparent.png" alt="" width="150px;"></a></div>
-                        </div>
-                        <!--Nav Box-->
-                        <div class="nav-outer">
-                            <!--Mobile Navigation Toggler-->
-                            <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar3.png" alt=""></div>
-
-                            <!-- Main Menu -->
-                            <nav class="main-menu navbar-expand-md navbar-light">
-                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation">
-                                    <li><a href="index.html">Home</a>
-                                    </li>
-                                    <li><a href="about.html">About Us </a></li>
-                                    <li class="dropdown"><a href="room-list.html">Rooms</a>
-                                        <ul>
-                                            <li><a href="deluxe.html">Deluxe Room</a>
-                                            </li>
-                                            <li><a href="room-list.html">Super Deluxe Room</a></li>
-                                            <li><a href="room-details.html">Executive Suite</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="dining-listing.html">Restaurant & Bar</a>
-                                        <ul>
-                                            <li><a href="lamjung.html">Lamjung Restaurant</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="facilities.html">Facilities</a></li>
-                                    <li class="dropdown"><a href="hall-list.html">Meeting & Events</a>
-                                        <ul>
-                                            <li><a href="hall.html">ABC Hall</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="recreation.html">Recreation</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="contact.html">Contact us</a></li>
-                                </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Header Upper-->
-
-            <!-- Sticky Header  -->
-            <div class="sticky-header">
-                <div class="header-upper">
-                    <div class="auto-container">
-                        <div class="inner-container">
-                            <div class="logo-box main-logo">
-                                <div class="logo"><a href="index.html"><img src="assets/images/barpeepal/logo-transparent.png" alt=""></a></div>
-                            </div>
-
-                            <!--Nav Box-->
-                            <div class="nav-outer">
-                                <!--Mobile Navigation Toggler-->
-                                <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar3.png" alt=""></div>
-                                <!-- Main Menu -->
-                                <nav class="main-menu navbar-expand-md navbar-light">
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Sticky Menu -->
-
-            <!-- Mobile Menu  -->
-            <div class="mobile-menu">
-                <div class="menu-backdrop"></div>
-                <div class="close-btn"><i class="icon far fa-times"></i></div>
-
-                <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.html"><img src="assets/images/barpeepal/barpeepal.png" alt="" title="" width="150px"></a></div>
-                    <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-                </nav>
-            </div><!-- End Mobile Menu -->
-
-            <div class="nav-overlay">
-                <div class="cursor"></div>
-                <div class="cursor-follower"></div>
-            </div>
-        </header>
-        <!-- End Main Header -->
-        <!-- Page Title -->
-        <section class="page-title" style="background-image: url(assets/images/main-slider/about.jpg);">
-            <div class="auto-container">
-                <div class="content-box">
-                    <div class="content-wrapper">
-                        <div class="title">
-                            <h1>Deluxe Room</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- section thirty nine -->
-        <section class="section-thirty-nine">
-            <div class="auto-container">
-                <div class="row">
-                    <div class="col-md-9 overflow-hidden">
-                        <div class="owl-carousel room_sliders">
-                            <div class="item"><img src="assets\images\barpeepal\rooms\deluxe.jpg" alt="" width="100%">
-                            </div>
-                            <div class="item"><img src="assets\images\barpeepal\rooms\executive.jpg" alt=""
-                                    width="100%"></div>
-                            <div class="item"><img src="assets\images\barpeepal\rooms\super-deluxe.jpg" alt=""
-                                    width="100%"></div>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3 room_special px-0 ">
-                        <div class="pricing  p-2">
-                            <h2> USD</h2>
-                            <span>200 / Night</span>
-                        </div>
-                        <!-- Check availability two -->
-                        <div class="check-availability-two inner_room_booking">
-                            <form class="form">
-                                <ul>
-                                    <li>
-                                        <h5>Check In</h5>
-                                        <input type="text" placeholder="Select a date"
-                                            class="datepicker bg-transparent"> <i class="far fa-calendar-alt"></i>
-                                    </li>
-                                    <li>
-                                        <h5>Check Out</h5>
-                                        <input type="text" placeholder="Select a date"
-                                            class="datepicker bg-transparent"> <i class="far fa-calendar-alt"></i>
-                                    </li>
-                                </ul>
-                                <button type="submit">check availability</button>
-                            </form>
-                        </div>
-                        <!-- End Bnner Section -->
-                    </div>
-                </div>
-                <div class="row mt-5 pt-5">
-                    <div class="col-lg-12">
-                        <div class="bottom-border">
-                            <h1 class="mb-3">Deluxe Room </h1>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 pe-5">
-                                <ul class="d-flex gap-5">
-                                    <li><i class="flaticon-user pe-1"></i><span>4 Person</span></li>
-                                    <li><i class="flaticon-preview pe-1"></i><span>600sqm</span></li>
-                                    <li><i class="flaticon-view pe-1"></i><span>Terrace view</span></li>
-                                </ul>
-                                <div class="block-forty mt-4">
-                                    <div class="text">Rise above the urban bustle in your own spacious sanctuary.
-                                        Surround yourself with world class furnishing, fixtures, fabrics and flooring in
-                                        generously proportioned room inspired by Nepalese authentic design flair.
-                                        Well-furnished accommodation with all necessary amenities that makes your time
-                                        relaxing & blissful. You can enjoy the beautiful view of Fewa Lake from the
-                                        private balcony of accommodation.</div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="bottom-border mt-5">
-                            <h3 class="text-center">Facilities</h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="block-43">
-                                    <div class="icon-three">
-                                        <i class="flaticon-laundry"></i>
-                                        <div class="title">Laundry Service</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="block-43">
-                                    <div class="icon-three">
-                                        <i class="flaticon-breakfast"></i>
-                                        <div class="title">Food & Snacks</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="block-43">
-                                    <div class="icon-three">
-                                        <i class="flaticon-plane"></i>
-                                        <div class="title">Airport-Pickup</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="block-43">
-                                    <div class="icon-three">
-                                        <i class="flaticon-pool"></i>
-                                        <div class="title">Swiming Night</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-<!-- other rooms -->
-<section class="section-fifty other__rooms pb-0">
-    <div class="auto-container">
-        <div class="bottom-border">
-            <h1 class="mb-3">Similar Rooms</h1>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="block-fifty">
-                    <div class="image"><img src="assets/images/resource/places.jpg" alt=""></div>
-                    <div class="content">
-                        <h4>Super Deluxe Room</h4>
-                        <div class="text">Lorem ipsum dolor sit amet, consec <br>tetur adipisicing elit, sed do eiusm <br>od tempor incididunt ut labore et do <br>lore magna aliqua.</div>
-                        <div class="lower-content">
-                            <div class="icon-two"><i class="fas fa-arrow-right"></i></div>
-                            <a href="contact.html" class="get-directions"><span>Learn More</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="block-fifty">
-                    <div class="image"><img src="assets/images/resource/places-2.jpg" alt=""></div>
-                    <div class="content">
-                        <h4>Executive Room</h4>
-                        <div class="text">Lorem ipsum dolor sit amet, consec <br>tetur adipisicing elit, sed do eiusm <br>od tempor incididunt ut labore et do <br>lore magna aliqua.</div>
-                        <div class="lower-content">
-                            <div class="icon-two"><i class="fas fa-arrow-right"></i></div>
-                            <a href="contact.html" class="get-directions"><span>Learn More</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- other rooms end -->
-
-        </section>
-
-        <!--footer section  -->
-        <section id="footer_ajax">
-        </section>
-
-    </div>
-    <!--End pagewrapper-->
-
-    <!--Scroll to top-->
-    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up"></span></div>
-
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.fancybox.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/scrollbar.js"></script>
-    <script src="assets/js/TweenMax.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/jquery-ui-1.9.2.custom.min.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-
-    <script src="assets/js/active.js"></script>
-    <script>
-        $('.owl-carousel.room_sliders').owlCarousel({
-            loop: true,
-            center: true,
-            autoplay: true,
-            margin: 10,
-            nav: true,
-            navText: ['<i class="fas fa-chevron-left fa-2x text-white"></i>','<i class="fas fa-chevron-right fa-2x text-white"></i>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1000: {
-                    items: 1
-                }
-            }
-        })
-    </script>
-
-
-</body>
-
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Bar Peepal Resort</title>
+
+    <!-- Stylesheets -->
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Responsive File -->
+
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <link href="assets/css/new-style.css" rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+
+        rel="stylesheet">
+
+
+
+    <link rel="shortcut icon" href="assets/images/barpeepal/favicon.png" type="image/x-icon">
+
+    <link rel="icon" href="assets/images/barpeepal/favicon.png" type="image/x-icon">
+
+
+
+    <!-- Responsive -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+</head>
+
+
+
+<body>
+
+
+
+    <div class="page-wrapper">
+
+
+
+        <!-- preloader -->
+
+        <div id="preloader" class="preloader">
+
+            <div class="animation-preloader">
+
+                <div class="spinner">
+
+                </div>
+
+            </div>
+
+            <div class="loader">
+
+                <div class="row">
+
+                    <div class="col-3 loader-section section-left">
+
+                        <div class="bg"></div>
+
+                    </div>
+
+                    <div class="col-3 loader-section section-left">
+
+                        <div class="bg"></div>
+
+                    </div>
+
+                    <div class="col-3 loader-section section-right">
+
+                        <div class="bg"></div>
+
+                    </div>
+
+                    <div class="col-3 loader-section section-right">
+
+                        <div class="bg"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Main Header -->
+
+        <header class="main-header header-style-three position-absolute">
+
+            <!-- Header Upper -->
+
+            <div class="header-upper">
+
+                <div class="auto-container">
+
+                    <div class="inner-container">
+
+                        <div class="logo-box main-logo">
+
+                            <div class="logo"><a href="index.html"><img src="assets/images/barpeepal/logo-transparent.png" alt="" width="150px;"></a></div>
+
+                        </div>
+
+                        <!--Nav Box-->
+
+                        <div class="nav-outer">
+
+                            <!--Mobile Navigation Toggler-->
+
+                            <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar3.png" alt=""></div>
+
+
+
+                            <!-- Main Menu -->
+
+                            <nav class="main-menu navbar-expand-md navbar-light">
+
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+
+                                    <ul class="navigation">
+
+                                    <li><a href="index.html">Home</a>
+
+                                    </li>
+
+                                    <li><a href="about.html">About Us </a></li>
+
+                                    <li class="dropdown"><a href="room-list.html">Rooms</a>
+
+                                        <ul>
+
+                                            <li><a href="deluxe.html">Deluxe Room</a>
+
+                                            </li>
+
+                                            <li><a href="room-list.html">Super Deluxe Room</a></li>
+
+                                            <li><a href="room-details.html">Executive Suite</a></li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="dropdown"><a href="dining-listing.html">Restaurant & Bar</a>
+
+                                        <ul>
+
+                                            <li><a href="lamjung.html">Lamjung Restaurant</a>
+
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li><a href="facilities.html">Facilities</a></li>
+
+                                    <li class="dropdown"><a href="hall-list.html">Meeting & Events</a>
+
+                                        <ul>
+
+                                            <li><a href="hall.html">ABC Hall</a>
+
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li><a href="recreation.html">Recreation</a></li>
+
+                                    <li><a href="gallery.html">Gallery</a></li>
+
+                                    <li><a href="contact.html">Contact us</a></li>
+
+                                </ul>
+
+                                </div>
+
+                            </nav>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--End Header Upper-->
+
+
+
+            <!-- Sticky Header  -->
+
+            <div class="sticky-header">
+
+                <div class="header-upper">
+
+                    <div class="auto-container">
+
+                        <div class="inner-container">
+
+                            <div class="logo-box main-logo">
+
+                                <div class="logo"><a href="index.html"><img src="assets/images/barpeepal/logo-transparent.png" alt=""></a></div>
+
+                            </div>
+
+
+
+                            <!--Nav Box-->
+
+                            <div class="nav-outer">
+
+                                <!--Mobile Navigation Toggler-->
+
+                                <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar3.png" alt=""></div>
+
+                                <!-- Main Menu -->
+
+                                <nav class="main-menu navbar-expand-md navbar-light">
+
+                                </nav>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- End Sticky Menu -->
+
+
+
+            <!-- Mobile Menu  -->
+
+            <div class="mobile-menu">
+
+                <div class="menu-backdrop"></div>
+
+                <div class="close-btn"><i class="icon far fa-times"></i></div>
+
+
+
+                <nav class="menu-box">
+
+                    <div class="nav-logo"><a href="index.html"><img src="assets/images/barpeepal/barpeepal.png" alt="" title="" width="150px"></a></div>
+
+                    <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+
+                </nav>
+
+            </div><!-- End Mobile Menu -->
+
+
+
+            <div class="nav-overlay">
+
+                <div class="cursor"></div>
+
+                <div class="cursor-follower"></div>
+
+            </div>
+
+        </header>
+
+        <!-- End Main Header -->
+
+        <!-- Page Title -->
+
+        <section class="page-title" style="background-image: url(assets/images/main-slider/about.jpg);">
+
+            <div class="auto-container">
+
+                <div class="content-box">
+
+                    <div class="content-wrapper">
+
+                        <div class="title">
+
+                            <h1>Deluxe Room</h1>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- section thirty nine -->
+
+        <section class="section-thirty-nine">
+
+            <div class="auto-container">
+
+                <div class="row">
+
+                    <div class="col-md-9 overflow-hidden">
+
+                        <div class="owl-carousel room_sliders">
+
+                            <div class="item"><img src="assets\images\barpeepal\rooms\deluxe.jpg" alt="" width="100%">
+
+                            </div>
+
+                            <div class="item"><img src="assets\images\barpeepal\rooms\executive.jpg" alt=""
+
+                                    width="100%"></div>
+
+                            <div class="item"><img src="assets\images\barpeepal\rooms\super-deluxe.jpg" alt=""
+
+                                    width="100%"></div>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 room_special px-0 ">
+
+                        <div class="pricing  p-2">
+
+                            <h2>200</h2>
+
+                            <span>USD / Night</span>
+
+                        </div>
+
+                        <!-- Check availability two -->
+
+                        <div class="check-availability-two inner_room_booking">
+
+                            <form class="form">
+
+                                <ul>
+
+                                    <li>
+
+                                        <h5>Check In</h5>
+
+                                        <input type="text" placeholder="Select a date"
+
+                                            class="datepicker bg-transparent"> <i class="far fa-calendar-alt"></i>
+
+                                    </li>
+
+                                    <li>
+
+                                        <h5>Check Out</h5>
+
+                                        <input type="text" placeholder="Select a date"
+
+                                            class="datepicker bg-transparent"> <i class="far fa-calendar-alt"></i>
+
+                                    </li>
+
+                                </ul>
+
+                                <button type="submit">check availability</button>
+
+                            </form>
+
+                        </div>
+
+                        <!-- End Bnner Section -->
+
+                    </div>
+
+                </div>
+
+                <div class="row mt-5 pt-5">
+
+                    <div class="col-lg-12">
+
+                        <div class="bottom-border">
+
+                            <h1 class="mb-3">Deluxe Room </h1>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-12 pe-5">
+
+                                <ul class="d-flex gap-5">
+
+                                    <li><i class="flaticon-user pe-1"></i><span>4 Person</span></li>
+
+                                    <li><i class="flaticon-bed pe-1"></i><span>King Size</span></li>
+
+                                    <li><i class="flaticon-view pe-1"></i><span>Terrace view</span></li>
+
+                                </ul>
+
+                                <div class="block-forty mt-4">
+
+                                    <div class="text">Rise above the urban bustle in your own spacious sanctuary.
+
+                                        Surround yourself with world class furnishing, fixtures, fabrics and flooring in
+
+                                        generously proportioned room inspired by Nepalese authentic design flair.
+
+                                        Well-furnished accommodation with all necessary amenities that makes your time
+
+                                        relaxing & blissful. You can enjoy the beautiful view of Fewa Lake from the
+
+                                        private balcony of accommodation.</div>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+                        <div class="bottom-border mt-5">
+
+                            <h3 class="text-center">Facilities</h3>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-3">
+
+                                <div class="block-43">
+
+                                    <div class="icon-three">
+
+                                        <i class="flaticon-laundry"></i>
+
+                                        <div class="title">Laundry Service</div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3">
+
+                                <div class="block-43">
+
+                                    <div class="icon-three">
+
+                                        <i class="flaticon-breakfast"></i>
+
+                                        <div class="title">Food & Snacks</div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3">
+
+                                <div class="block-43">
+
+                                    <div class="icon-three">
+
+                                        <i class="flaticon-plane"></i>
+
+                                        <div class="title">Airport-Pickup</div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3">
+
+                                <div class="block-43">
+
+                                    <div class="icon-three">
+
+                                        <i class="flaticon-pool"></i>
+
+                                        <div class="title">Swiming Night</div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+<!-- other rooms -->
+
+<section class="section-fifty other__rooms pb-0">
+
+    <div class="auto-container">
+
+        <div class="bottom-border">
+
+            <h1 class="mb-3">Other Rooms</h1>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <div class="block-fifty">
+
+                    <div class="image"><img src="assets/images/resource/places.jpg" alt=""></div>
+
+                    <div class="content">
+
+                        <h4>Super Deluxe Room</h4>
+
+                        <div class="text">Lorem ipsum dolor sit amet, consec <br>tetur adipisicing elit, sed do eiusm <br>od tempor incididunt ut labore et do <br>lore magna aliqua.</div>
+
+                        <div class="lower-content">
+
+                            <div class="icon-two"><i class="fas fa-arrow-right"></i></div>
+
+                            <a href="contact.html" class="get-directions"><span>Learn More</span></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-6">
+
+                <div class="block-fifty">
+
+                    <div class="image"><img src="assets/images/resource/places-2.jpg" alt=""></div>
+
+                    <div class="content">
+
+                        <h4>Executive Room</h4>
+
+                        <div class="text">Lorem ipsum dolor sit amet, consec <br>tetur adipisicing elit, sed do eiusm <br>od tempor incididunt ut labore et do <br>lore magna aliqua.</div>
+
+                        <div class="lower-content">
+
+                            <div class="icon-two"><i class="fas fa-arrow-right"></i></div>
+
+                            <a href="contact.html" class="get-directions"><span>Learn More</span></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- other rooms end -->
+
+
+
+        </section>
+
+
+
+        <!--footer section  -->
+
+        <section id="footer_ajax">
+
+        </section>
+
+
+
+    </div>
+
+    <!--End pagewrapper-->
+
+
+
+    <!--Scroll to top-->
+
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up"></span></div>
+
+
+
+    <script src="assets/js/jquery.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/jquery.fancybox.js"></script>
+
+    <script src="assets/js/isotope.js"></script>
+
+    <script src="assets/js/owl.js"></script>
+
+    <script src="assets/js/appear.js"></script>
+
+    <script src="assets/js/wow.js"></script>
+
+    <script src="assets/js/scrollbar.js"></script>
+
+    <script src="assets/js/TweenMax.min.js"></script>
+
+    <script src="assets/js/swiper.min.js"></script>
+
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <script src="assets/js/parallax-scroll.js"></script>
+
+    <script src="assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+
+
+    <script src="assets/js/active.js"></script>
+
+    <script>
+
+        $('.owl-carousel.room_sliders').owlCarousel({
+
+            loop: true,
+
+            center: true,
+
+            autoplay: true,
+
+            margin: 10,
+
+            nav: true,
+
+            navText: ['<i class="fas fa-chevron-left fa-2x text-white"></i>','<i class="fas fa-chevron-right fa-2x text-white"></i>'],
+
+            responsive: {
+
+                0: {
+
+                    items: 1
+
+                },
+
+                600: {
+
+                    items: 1
+
+                },
+
+                1000: {
+
+                    items: 1
+
+                }
+
+            }
+
+        })
+
+    </script>
+
+
+
+
+
+</body>
+
+
+
 </html>
