@@ -50,6 +50,11 @@ div.check-availability-two button {
   line-height: 1;
 }
 
+.sec-title.about_title {
+  font-size: 40px;
+  color: var(--color-dark-green);
+}
+
 /* ota */
 .ota_wrapper .ota-child {
   flex: 0 1 110px;
@@ -131,6 +136,7 @@ div.check-availability-two button {
 
 .footer-styling .contact-widget li i {
   color: #fff;
+  padding-top: 6px;
 }
 
 .footer__icons li {
@@ -190,10 +196,9 @@ div.check-availability-two button {
   padding: 31px 30px 40px;
 }
 
-/*.section-thirty-eight .column__orders .row:nth-child(even) {*/
-/*  flex-direction: row-reverse;*/
-/*}*/
-
+/* .section-thirty-eight .column__orders .row:nth-child(even){
+  flex-direction: row-reverse;
+} */
 /* Room details page */
 .room_special {
   background-color: #fbfbfb;
@@ -250,9 +255,35 @@ div.check-availability-two button {
   color: #fff;
 }
 
+/* menu list */
+.restaurant_info {
+  background: url("/assets/images/barpeepal/menu.png") center center no-repeat;
+  height: 665px;
+}
+.restaurant_info table {
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+/* menu list end */
 /* testimonial */
 .testimonials-section .text {
   max-height: 130px;
   overflow-y: auto;
   padding-right: 30px;
+}
+
+/* popup */
+.book_date {
+  position: relative;
+}
+.book_date:before {
+  position: absolute;
+  content: "\f073";
+  font-family: "Font Awesome 5 Free";
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }/*# sourceMappingURL=new-style.css.map */

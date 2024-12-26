@@ -66,7 +66,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6em;
     color: #777777;
     font-weight: 400;
@@ -118,7 +118,7 @@ button {
 }
 
 .text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     color: #777777;
     font-weight: 400;
@@ -535,7 +535,7 @@ img {
     width:100% !important;
 }
 .owl-carousel.owl-recreation .owl-nav{
-  width: 94%; 
+  width: 94%;
   left: 50%;
 }
 .row {
@@ -732,12 +732,10 @@ img {
     font-weight: 7;
     font-family: "Roboto";
     text-align: center;
-    text-decoration: underline !important;
 }
 
 .btn-style-one:hover {
     color: #fff;
-    text-decoration: underline !important;
 }
 
 .btn-style-one:before {
@@ -2402,7 +2400,7 @@ section.section-one {
 
 .block-two.style-two .text-two {
     margin-bottom: 50px;
-    border-bottom: 1px solid #efefef;
+    /* border-bottom: 1px solid #efefef; */
     padding-bottom: 30px;
 }
 
@@ -3406,9 +3404,10 @@ section.section-thirty-five span:hover {
     position: relative;
 }
 
+
 .block-thirty-six .text {
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     color: #777777;
     font-weight: 400;
@@ -4955,7 +4954,7 @@ section.section-thirty-eight {
     margin-left: 30px;
 }
 .block-thirty-eight .text-two {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #777777;
     font-weight: 400;
@@ -6010,6 +6009,7 @@ section.map-section {
     height: 120px;
     border: 2px solid #f3f3f3;
     padding: 15px 25px;
+    font-size: 14px;
 }
 
 .contact-form.style-two input.form-control:focus {
